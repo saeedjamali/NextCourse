@@ -5,7 +5,7 @@ import { MdOutlineRoundaboutLeft } from "react-icons/md";
 
 function Sidebar() {
     return (
-        <div className='flex flex-col items-center justify-start '>
+        <div className=' flex flex-col items-center justify-start sticky right-0 top-0 bg-gray-100'>
             <div className='flex items-center justify-center gap-x-4 my-12 h-10'>
                 <span className='logo'><img src='./image/logo.png' className='h-8' /></span>
                 <span className='font-extrabold text-xl'>ایران من</span>
